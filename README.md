@@ -12,11 +12,9 @@ This is a full-stack blog application built using **Flutter** for the frontend a
 
 ## 📸 Screenshots
 
-*(Add your screenshots here, or replace with actual file paths)*
-
-<img src="outputs/blog_list.png" width="300">
-<img src="outputs/blog_create.png" width="300">
-<img src="outputs/blog_detail.png" width="300">
+<img src="outputs/post list screen.png" width="300">
+<img src="outputs/create post screen.png" width="300">
+<img src="outputs/post detail screen.png" width="300">
 
 ---
 
@@ -43,5 +41,15 @@ This is a full-stack blog application built using **Flutter** for the frontend a
 ### Run the Flutter App
 
 ```bash
+cd frontend
 flutter pub get
 flutter run
+```
+
+### Run the Django Backend
+
+```bash
+cd backend
+python manage.py runserver
+
+
